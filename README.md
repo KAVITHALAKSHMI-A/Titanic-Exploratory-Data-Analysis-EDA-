@@ -33,37 +33,6 @@ ticket information for 891 passengers aboard the RMS Titanic (1912), including:
 | `SibSp`, `Parch` | Siblings/spouses and parents/children aboard |
 | `Fare`, `Embarked` | Ticket fare and port of embarkation |
 
-## 🚀 How to Run
-
-### 1. Clone the repository
-```bash
-git clone <your-repo-url>
-cd eda-project
-```
-
-### 2. Create a virtual environment (recommended)
-```bash
-python3 -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the analysis
-
-**Option A — Jupyter Notebook (recommended for submission/review):**
-```bash
-jupyter notebook notebooks/EDA_Titanic.ipynb
-```
-Then click **Run All** (Cell → Run All) to reproduce every output and chart.
-
-**Option B — Standalone script** (generates all plots into `images/`):
-```bash
-python run_analysis.py
-```
 
 ## 🔍 Key Insights
 
